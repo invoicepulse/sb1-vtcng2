@@ -18,7 +18,7 @@ const Home = () => {
     <div className="overflow-hidden">
       {/* Hero Section */}
       <section className="pt-20 lg:pt-32 pb-16 bg-gradient-to-b from-primary-50 to-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" style={{ paddingLeft: '6%' }}>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-8">
               <motion.div
@@ -46,7 +46,7 @@ const Home = () => {
               </div>
             </div>
             
-            <div className="lg:pl-8">
+            <div className="lg:pl-8" style={{ marginLeft: '10%', paddingLeft: '20px' }}>
               <div className="space-y-4">
                 <h3 className="text-lg font-semibold text-gray-900">
                   Test Heisenberg without Sign up
@@ -55,8 +55,8 @@ const Home = () => {
                   id="audio_iframe" 
                   src="https://widget.synthflow.ai/widget/v2/1730872545114x310800936717137800/1730872544991x315974364655777100" 
                   allow="microphone" 
-                  width="400" 
-                  height="600" 
+                  width="350" 
+                  height="470" 
                   style={{
                     border: 'none',
                     borderRadius: '12px',
